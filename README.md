@@ -9,7 +9,7 @@ The source files were written by Pr. Gauthier PICARD, then completed by us follo
 
 The files are to be found in the src folder of the Java Project. 
 
-_util_ contains a simple example of the maximin search algorithm with and without alpha-beta prunning, it is applied in a simple 2-depth tree.
+_util_ contains a simple example of the maximin search algorithm with and without alpha-beta pruning, it is applied in a simple 2-depth tree.
 
 _adversarial_ contains the interfaces of the game and the search algorithms (AdversarialSearch.java, Game.java). And the search algorithms ready to use : MinimaxSearch.java, AlphaBetaSearch.jave, IterativeDeepeningAlphaBetaSearch.java.
 
