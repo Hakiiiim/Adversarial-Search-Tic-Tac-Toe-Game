@@ -17,4 +17,16 @@ _adversarial/core_ contains Metrics.java which calculates the number of expanded
 
 _adversarial/tictactoe_ The game's folder, contains the game implementation TicTacToe.java, and the gameplay file (which is to execute to try the game) TicTacToeGamePlay.java.
 
+# Game modelization
+## State
+
+A state is a list of 25 integers: [P,B1,B2,B3,B4,B5,B6,B7,B8,B9,X1,X2,X3,X4,X5,X6,X7,X8,O1,O2,O3,O4,O5,O6,O7,O8]
+
+P: {0,1} to designate which player should play
+
+B1,...,B9: {0,1,2} equivalent to {-,X,O}, the boards' squares line by line
+
+X1,...,X8: The number of Xs (1s) contained in the three columns, the three lines and the two diagonals (useful to compute evaluation function later)
+
+O1,...,O8: The number of Os (2s) contained in the three columns, the three lines and the two diagonals (useful to compute evaluation function later)
 
