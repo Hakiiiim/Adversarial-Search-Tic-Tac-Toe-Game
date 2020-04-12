@@ -26,7 +26,7 @@ P: {0,1} to designate which player should play
 
 B1,...,B9: {0,1,2} equivalent to {-,X,O}, the boards' squares line by line
 
-X1,...,X8: The number of Xs (1s) contained in the three columns, the three lines and the two diagonals (useful to compute evaluation function later)
+X1,...,X8: {0,1,2,3} The number of Xs (1s) contained in the three columns, the three lines and the two diagonals (useful to compute evaluation function later)
 
-O1,...,O8: The number of Os (2s) contained in the three columns, the three lines and the two diagonals (useful to compute evaluation function later)
+O1,...,O8: {0,1,2,3} The number of Os (2s) contained in the three columns, the three lines and the two diagonals (useful to compute evaluation function later)
 
