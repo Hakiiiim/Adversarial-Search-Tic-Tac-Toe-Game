@@ -30,3 +30,4 @@ X1,...,X8: {0,1,2,3} The number of Xs (1s) contained in the three columns, the t
 
 O1,...,O8: {0,1,2,3} The number of Os (2s) contained in the three columns, the three lines and the two diagonals (useful to compute evaluation function later)
 
+## Evaluation function (a state's utility)
