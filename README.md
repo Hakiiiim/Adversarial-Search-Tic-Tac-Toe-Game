@@ -34,4 +34,6 @@ O1,...,O8: {0,1,2,3} The number of Os (2s) contained in the three columns, the t
 
 For Terminal states: if a player's sign (X or O) reach 3 in some column line or diagonal the utility function returns positive infinity (Or a very high value, e.g 1000), if it's his oponent sign that's reaching 3 then it returns negative infinity (-1000).
 
+For the terminal state where the board is full and no player has won the utility function should return 0.
+
 For intermediate states: an evaluation function is used, having the current player with sign X and his oponent O, the formula is: (3X_2 + X_1) - (3O_2 + O_1). X_2, X_1, O_2 and O_1 are defined above.
