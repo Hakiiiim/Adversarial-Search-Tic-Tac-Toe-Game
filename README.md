@@ -5,7 +5,7 @@ Course given by: Gauthier PICARD, Professor. PhD. HDR at the Ecole des Mines de 
 
 Here is his statement of the problem: https://www.emse.fr/~picard/cours/ai/adversarial/index.html
 
-The source files were written by Pr. Gauthier PICARD, then completed by us following the exercices presented in the previous link. Model realised by me and my colleague Younes Gueddari.
+The source files were written by Pr. Gauthier PICARD (inspired from the algorithm provided by AIMA-Java Project), then completed by us following the exercices presented in the previous link. Model realised by me and my colleague Younes Gueddari.
 
 The files are to be found in the src folder of the Java Project. 
 
